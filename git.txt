@@ -11,9 +11,9 @@ modificações -> stage area -> commit
      pc <| repository  |>  github 
 
 
+# Credencias Git 
 
-
-configurando credencias 
+->  configurando credencias 
 
 git config --global user.name ""
 git config --global user.email "email da conta github"
@@ -26,6 +26,7 @@ git add .   -> adiciona todos os arquivos e pastas modificados, ao stage are
 git commit -m "message here" -> cria e descreve um pontoe na historia
 git log ->  -> histórico de commit do projeto
 
+stage area 
 remover arquivos da stage area 
 use "git rm --cached <file>..." to unstage
 
@@ -33,4 +34,11 @@ arquivo modificado!
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
+  (use "git restore <file>..." ↓ to discard changes in working directory)
+                               #-> descarta a ultima alteração
+
+primeiro commit 
+   -> git commit -m "initial commit"
+   corrigindo msn do commit  -> git commit -m "msn corrigida" --amend   
+
+   git log -> para sair do git log tecle q
